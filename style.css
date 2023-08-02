@@ -6,10 +6,19 @@
     flex-direction: column;
     height: 60vh;
 }
-body {
-  padding: 0;
-  margin: 0;
-} 
+.bot-container{
+    background: linear-gradient(300deg,#EB9F75,#DEB67A,#D46350);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
 .header{
     font-size: 60px;
 }
@@ -47,6 +56,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin :-8px;
     padding-bottom:20px ;
 }
 ul{
@@ -65,16 +75,7 @@ ul{
     width: 100%;
     height: 200px;
 }
-.bot-container{
-    background: linear-gradient(300deg,#EB9F75,#DEB67A,#D46350);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 20vh;
-    margin-top: 30px;
-}
+
 a{
     text-decoration:none;
     color: white;
